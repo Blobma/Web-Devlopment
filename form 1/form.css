@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1a17;
+}
+#form_cont{
+    width: 50%;
+}
+form{
+    display: flex;
+    justify-self: center;
+    align-items:center;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+#first{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin-right: 20px;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+#first input, #second input, select{
+    border: 1px solid lightgray;
+    height: 40px;
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+fieldset{
+    border: 0;
+    display: flex;
+    flex-direction: row;
+}
+fieldset legend div input{
+    display: flex;
+    flex-direction: row;
+}
+fieldset div{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    margin-left: 5px;
+}
+fieldset div label{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check label{
+    margin-top: 13px;
+    margin-left: 9px;
+}
+#main-btn{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 6px 14px;
+    border-radius: 5px;
+    border: 0;
+}
+#sec-btn{
+    background-color: lightgray;
+    padding: 6px 14px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 900;    
+}

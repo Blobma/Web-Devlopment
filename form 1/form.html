@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="form.css" rel="stylesheet">
+    <title>Forms</title>
+</head>
+<body>
+   <main>
+      <div id="form_cont">
+           <form>
+              <div id="first">
+                  <input type="text" placeholder="Full Name">
+                  <input type="email" placeholder="Email Address">
+                  <input type="number" placeholder="Age">
+                  <input type="tel" placeholder="Mobile no.">
+                  <input type="text" placeholder="City">
+              </div>
+              <div id="second">
+                 <fieldset>
+                    <div>
+                     <input type="radio" value="male" placeholder="Male">
+                    <label for="male">Male</label>
+                    </div>
+                    <div>
+                     <input type="radio" value="female" placeholder="Female">
+                    <label for="female">Female</label>
+                    </div>
+                    <div>
+                     <input type="radio" value="others" placeholder="Others">
+                    <label for="others">Others</label>
+                    </div>
+                 </fieldset>
+
+                 <select id="jobs" name="Jobs" placeholder="Department">
+                    <option default value="Department" >Department</option>
+                    <option value="HR">HR</option>
+                    <option value="Cleaner">Cleaner</option>
+                    <option value="Security">Security</option>
+                    <option value="UI/UX Designer">UI/UX Designer</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="IT Support">IT Support</option>
+                    <option value="Form Developer">Form Developer</option>
+                    <option value="Caterer">Caterer</option>
+                    <option value="Secretary">Secretary</option>
+                    <option value="Information">Information</option>
+                    <option value="Call Center">Call Center</option>
+                 </select>
+
+                 <input type="date">
+
+                <div class="check">
+                  <input type="checkbox">
+                  <label>Permanent Employee!</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox">
+                  <label>Terms and Conditions!</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox">
+                  <label>Disclosure of personal Details!</label>
+                </div>
+
+               <div>
+                    <button type="submit"id="main-btn">Register!</button>
+                    <a id="sec-btn" type="reset" href="https://www.google.com/">Erase and Return!</a>
+               </div>
+            </div>
+           </form>
+      </div>
+   </main> 
+</body>
+</html>
